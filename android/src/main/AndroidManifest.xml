@@ -1,0 +1,15 @@
+
+  <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.jules-c.dataNotifications.capacitorplugindataNotifications">
+
+      <application>
+        <service android:name="com.jules-c.dataNotifications.capacitorplugindataNotifications.MessagingService" android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+    </application>
+  </manifest>
+  
