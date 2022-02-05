@@ -9,7 +9,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </service>
-        <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+        <!-- <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" /> -->
     </application>
   </manifest>
   
