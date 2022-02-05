@@ -1,7 +1,7 @@
 package com.julesc.datanotifications;
 
 import androidx.annotation.NonNull;
-//import com.google.firebase.messaging.FirebaseMessagingService;
+import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
 
 
@@ -18,7 +18,7 @@ import android.util.Log;
 
 import com.getcapacitor.CapacitorFirebaseMessagingService;
 import com.getcapacitor.JSObject;
-// import com.google.firebase.messaging.RemoteMessage;
+import com.google.firebase.messaging.RemoteMessage;
 
 import org.json.JSONException;
 import org.json.JSONObject;

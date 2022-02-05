@@ -5,7 +5,7 @@ import com.getcapacitor.NativePlugin;
 import com.getcapacitor.Plugin;
 import com.getcapacitor.PluginCall;
 import com.getcapacitor.PluginMethod;
-
+import com.getcapacitor.PluginHandle;
 import android.app.Notification;
 import android.app.NotificationManager;
 import android.content.Context;
@@ -19,8 +19,6 @@ import android.util.Log;
 import com.getcapacitor.Bridge;
 import com.getcapacitor.JSArray;
 import com.getcapacitor.JSObject;
-
-//import com.getcapacitor.PluginHandle;
 
 import com.getcapacitor.annotation.CapacitorPlugin;
 import com.getcapacitor.annotation.Permission;
