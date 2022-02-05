@@ -62,6 +62,7 @@
     "url": "https://github.com/Jules-C/capacitor-plugin-dataNotifications/issues"
   },
   "dependencies": {
+    "@capacitor/cli": "^3.4.0",
     "@capacitor/push-notifications": "^1.0.9"
   }
 }
