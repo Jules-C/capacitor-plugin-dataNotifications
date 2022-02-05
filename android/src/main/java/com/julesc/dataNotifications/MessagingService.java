@@ -1,4 +1,4 @@
-package com.julesc.dataNotifications;
+package com.julesc.datanotifications;
 
 import androidx.annotation.NonNull;
 //import com.google.firebase.messaging.FirebaseMessagingService;

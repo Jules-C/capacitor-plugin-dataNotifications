@@ -1,9 +1,9 @@
 
   <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="com.julesc.dataNotifications.capacitorplugindataNotifications">
+      package="com.julesc.datanotifications.capacitorplugindatanotifications">
 
       <application>
-        <service android:name="com.julesc.dataNotifications.capacitorplugindataNotifications.MessagingService" android:exported="false">
+        <service android:name="com.julesc.datanotifications.capacitorplugindatanotifications.MessagingService" android:exported="false">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
                 <category android:name="android.intent.category.DEFAULT" />

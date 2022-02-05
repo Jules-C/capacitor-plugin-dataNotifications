@@ -1,5 +1,5 @@
 {
-  "name": "capacitor-plugin-dataNotifications",
+  "name": "capacitor-plugin-datanotifications",
   "version": "0.0.1",
   "description": "A bare bones capacitor plugin to handle data only notifications",
   "main": "dist/plugin.js",

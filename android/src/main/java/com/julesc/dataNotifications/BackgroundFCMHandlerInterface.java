@@ -1,4 +1,4 @@
-package com.julesc.dataNotifications;
+package com.julesc.datanotifications;
 import android.content.Context;
 import org.json.JSONObject;
 
