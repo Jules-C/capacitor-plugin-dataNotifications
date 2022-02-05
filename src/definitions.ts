@@ -1,6 +1,6 @@
-
+import type { PermissionState, PluginListenerHandle  } from '@capacitor/core';
 export type PresentationOption = 'badge' | 'sound' | 'alert';
-import { PushNotificationActionPerformed, PluginListenerHandle } from '@capacitor/core'
+import { ActionPerformed} from '@capacitor/push-notifications'
 
 // declare module '@capacitor/core' {
 //   interface PluginRegistry {
@@ -14,7 +14,7 @@ import { PushNotificationActionPerformed, PluginListenerHandle } from '@capacito
 
 
 declare module '@capacitor/core' {
-    interface PluginRegistry {
+  export interface PluginRegistry {
      DataNotification: DataNotificationPlugin;
    }
 //    export interface DataNotificationPlugin {
@@ -141,7 +141,7 @@ export interface DataNotificationPlugin {
   removeAllListeners(): Promise<void>;
 
   setAdditionalData(options: { value: string }): Promise<{value: string}>;
-  addListener(eventName: 'pushNotificationActionPerformed', listenerFunc: (notification: PushNotificationActionPerformed) => void): PluginListenerHandle;
+  addListener(eventName: 'ActionPerformed', listenerFunc: (notification: ActionPerformed) => void): PluginListenerHandle;
 
 }
 
@@ -180,4 +180,14 @@ export interface NotificationsIds {
    * @since 1.2.0
    */
   ids: string[];
+}
+
+/**
+ * @since 1.2.0
+ */
+export interface PermissionStatus {
+  /**
+   * @since 1.0.0
+   */
+  receive: PermissionState;
 }

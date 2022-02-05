@@ -60,5 +60,8 @@
   },
   "bugs": {
     "url": "https://github.com/Jules-C/capacitor-plugin-dataNotifications/issues"
+  },
+  "dependencies": {
+    "@capacitor/push-notifications": "^1.0.9"
   }
 }
