@@ -34,7 +34,7 @@ import java.util.Random;
 import java.util.Set;
 import org.json.JSONException;
 
-import com.getcapacitor.PluginRequestCodes;
+//import com.getcapacitor.PluginRequestCodes;
 
 import java.io.File;
 import java.io.FileOutputStream;
