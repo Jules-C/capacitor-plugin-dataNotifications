@@ -39,7 +39,7 @@ import java.util.Map;
  *   <action android:name="com.google.firebase.MESSAGING_EVENT" />
  * </intent-filter>
  */
-public class BackgroundFCMService extends CapacitorFirebaseMessagingService {
+public class MessagingService extends CapacitorFirebaseMessagingService {
 
   private static final String TAG = "BackgroundFCMService";
 
@@ -84,7 +84,7 @@ public class BackgroundFCMService extends CapacitorFirebaseMessagingService {
   }
 
   private void sendNotification(String id, String title, String message, Map<String, String> data) {
-      Intent intent = new Intent(this, BackgroundFCMTapHandler.class);
+      Intent intent = new Intent(this, DataNotificationTapHandler.class);
       intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
       intent.putExtra("id", id);
       intent.putExtra("data", data.toString());

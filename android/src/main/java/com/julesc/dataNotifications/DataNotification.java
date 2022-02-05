@@ -20,7 +20,7 @@ import com.getcapacitor.Bridge;
 import com.getcapacitor.JSArray;
 import com.getcapacitor.JSObject;
 
-import com.getcapacitor.PluginHandle;
+//import com.getcapacitor.PluginHandle;
 
 import com.getcapacitor.annotation.CapacitorPlugin;
 import com.getcapacitor.annotation.Permission;
@@ -42,7 +42,7 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-@NativePlugin(requestCodes = PluginRequestCodes.NOTIFICATION_OPEN)
+//@CapacitorPlugin(requestCodes = PluginRequestCodes.NOTIFICATION_OPEN)
 //changed name here
 @CapacitorPlugin(name = "DataNotification", permissions = @Permission(strings = {}, alias = "receive"))
 public class DataNotification extends Plugin {
